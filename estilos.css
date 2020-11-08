@@ -7,9 +7,11 @@ body{
 }
 .menu{
     padding: 20px;
-    background-color:#43C7F4;
+    position: relative;
     text-align: center;
     background-position: center;
+    margin: 30px auto;
+    background-color:#43C7F4;
     
 }
 
@@ -26,4 +28,51 @@ body{
 }
 .recurso{
     text-align: center;
+}
+.twitter{
+    text-align: center;
+}
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    background-color:#43C7F4;
+
+}
+.navegacion ul{
+
+    list-style: none;
+}
+
+.menu>li{
+    display: inline-block;
+}
+.menu>li>a{
+    display: block;
+    padding: 15px 20px;
+    color: cyan;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: darkcyan;
+    transition: all .3s;
+}
+.submenu{
+    position: absolute;
+    background: #005883;
+    visibility: hidden;
+    width: 120px;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+.submenu li a{
+    display: block;
+    padding: 5px;
+    color: darkturquoise;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
 }

@@ -8,30 +8,51 @@
 </head>
 <body>
     <h1 class="titulo" >Propiedades Básicas de CSS</h1>
-    <div class="menu" >
-        <a href="inicio.html">Inicio </a> -
-        <a href="conceptos01.html"> Conceptos:1 </a> -
-        <a href="conceptos02.html"> Conceptos:2 </a> -
-        <a href="recursos01.html"> Recursos:1 </a> -
-        <a href="recursos02.html"> Recursos:2 </a> -
-        <a href="autoevaluacion01.html"> Autoevaluación:1 </a> -
-        <a href="autoevaluacion02.html"> Autoevaluacion:2</a> -
-        <a href="index.html">  Autor </a> 
-    </div>
+    <header>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="">Conceptos</a>
+                   <ul class="submenu">
+                       <li><a href="conceptos01.html">Concepto#1</a></li>
+                       <li><a href="conceptos02.html">Concepto#2</a></li>
+                   </ul>
+               </li>
+                <li><a href="">Recursos</a>
+               <ul class="submenu">
+                   <li><a href="recursos01.html">Recurso#1</a></li>
+                   <li><a href="recursos02.html">Recurso#2</a></li>
+               </ul>
+               </li>
+                <li><a href="">Autoevaluación</a>
+               <ul class="submenu">
+                   <li><a href="autoevaluacion01.html">Autoevaluación#1</a></li>
+                   <li><a href="autoevaluacion02.html">Autoevaluación#2</a></li>
+
+               </ul>
+               </li> 
+                <li><a href="index.html">Autor</a></li>
+
+            </ul>
+        </nav>
+    </header>
+ 
+
    <h2>Recursos: del Autor </h2> 
                 <p>En base a lo visto en los conceptos anteriores, quiero en esta plataforma 
                     compartir con ustedes un pequeño video donde explicaré la funcionalidad 
                     a futuro de la página y su progreso. </p>
                    
     <h3>Video Explicativo 1</h3>
-     <video src="videos/Video Explicativo 1.mp4" height="600" width="500" controls>Video 1</video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lwkXOrpgfSo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
      <br>
     <h3>Video Explicativo 2:</h3>
-    <video src="Videos/Video Explicativo 2.mp4" height="600" width="500" controls>Video 2</video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xl7q2BlKzwY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <br>
 
     <h3>Video Explicativo 3</h3>
-    <video src="Videos/Video Explicativo 3.mp4" height="600"width="500" controls>Video 3</video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8jJtgkfuWhA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
      
 </body>
 </html>
